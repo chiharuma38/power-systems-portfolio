@@ -1,0 +1,30 @@
+# Power Systems Engineering Portfolio
+# Python 3.11
+#
+#   pip install -r requirements.txt
+
+# --- core numerical stack -------------------------------------------------
+# pandapower 2.14.1 requires numpy < 2 and pandas < 2.2: versions are pinned
+# together deliberately. Changing one without the others will break the import.
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.11.4
+
+# --- power systems --------------------------------------------------------
+pandapower==2.14.1
+
+# --- visualisation --------------------------------------------------------
+matplotlib==3.8.2
+plotly==5.18.0
+
+# --- notebooks ------------------------------------------------------------
+jupyter==1.0.0
+notebook==7.0.6
+
+# --- project 02: offshore wind (PyPSA + ENTSO-E) --------------------------
+pypsa==0.27.1
+entsoe-py==0.6.6
+python-dotenv==1.0.0
+
+# --- project 03: ML fault detection ---------------------------------------
+scikit-learn==1.3.2

@@ -1,0 +1,255 @@
+{
+  "_comment": "SINGLE SOURCE OF TRUTH. Edit this file only. Then run: python3 sync_progress.py",
+  "_docs": "See UPDATING.md",
+  "updated": "2026-08-22",
+  "learning": {
+    "programme": "MSc SENSE, EIT InnoEnergy",
+    "year1_host": "KTH Royal Institute of Technology, Stockholm",
+    "current_week": 1,
+    "total_weeks": 52,
+    "current_period": "Pre-arrival",
+    "hours_studied": 0,
+    "hours_target": 520,
+    "papers_read": 0,
+    "papers_target": 40,
+    "commits": 0,
+    "commits_target": 150,
+    "now_reading": "Kirschen and Strbac, Fundamentals of Power System Economics",
+    "now_building": "All five portfolio studies complete and written up. Next: a Nord Pool study on real market data."
+  },
+  "projects": [
+    {
+      "id": "01_n1_contingency",
+      "num": "01",
+      "name": "N-1 Contingency Screening and Wind Integration",
+      "status": "complete",
+      "percent": 100,
+      "headline": "Line 26 most critical at 157.5% loading, violations fall 77% at 80% wind",
+      "tools": [
+        "pandapower",
+        "Python",
+        "IEEE 39-bus"
+      ],
+      "repo": "https://github.com/chiharuma38/power-systems-portfolio/tree/main/01_n1_contingency",
+      "page": "projects/n1_contingency.html",
+      "milestones": [
+        {
+          "name": "Scope and README",
+          "done": true
+        },
+        {
+          "name": "Base case power flow",
+          "done": true
+        },
+        {
+          "name": "N-1 contingency loop",
+          "done": true
+        },
+        {
+          "name": "Wind penetration scenarios",
+          "done": true
+        },
+        {
+          "name": "Charts and CSV export",
+          "done": true
+        },
+        {
+          "name": "Write-up and project page",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "02_offshore_wind",
+      "num": "02",
+      "name": "HVAC Export Cable for an Offshore Wind Farm",
+      "status": "complete",
+      "percent": 100,
+      "headline": "AC feasible to 160 km, 109 Mvar charging power at 100 km",
+      "tools": [
+        "pandapower",
+        "110 kV XLPE cable data",
+        "Reactive compensation"
+      ],
+      "repo": "https://github.com/chiharuma38/power-systems-portfolio/tree/main/02_offshore_wind",
+      "page": "projects/offshore_wind.html",
+      "milestones": [
+        {
+          "name": "Scope and README",
+          "done": true
+        },
+        {
+          "name": "Cable data sourced and cited",
+          "done": true
+        },
+        {
+          "name": "Two bus network model",
+          "done": true
+        },
+        {
+          "name": "Charging power vs length",
+          "done": true
+        },
+        {
+          "name": "Minimum compensation by bisection",
+          "done": true
+        },
+        {
+          "name": "Feasibility limit found",
+          "done": true
+        },
+        {
+          "name": "Write-up with limitations",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "03_fault_detection",
+      "num": "03",
+      "name": "Detecting Line Outages from Bus Measurements",
+      "status": "complete",
+      "percent": 100,
+      "headline": "0.962 accuracy on clean data, chance level at 0.5% measurement noise",
+      "tools": [
+        "scikit-learn",
+        "IEEE 39-bus",
+        "Noise sensitivity"
+      ],
+      "repo": "https://github.com/chiharuma38/power-systems-portfolio/tree/main/03_fault_detection",
+      "page": "projects/fault_detection.html",
+      "milestones": [
+        {
+          "name": "Scope and README",
+          "done": true
+        },
+        {
+          "name": "2800 scenarios generated",
+          "done": true
+        },
+        {
+          "name": "Statistical baseline measured first",
+          "done": true
+        },
+        {
+          "name": "Random forest and SVM detection",
+          "done": true
+        },
+        {
+          "name": "35-class fault location",
+          "done": true
+        },
+        {
+          "name": "Leakage demonstrated deliberately",
+          "done": true
+        },
+        {
+          "name": "Noise sensitivity study",
+          "done": true
+        },
+        {
+          "name": "Write-up",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "04_storage_optimizer",
+      "num": "04",
+      "name": "Where the Price Comes From, and What a Battery Is Worth",
+      "status": "complete",
+      "percent": 100,
+      "headline": "LP duality verified to 4 decimals, revenue exactly zero below a price ratio of 1.181",
+      "tools": [
+        "SciPy linprog",
+        "IEEE 118-bus costs",
+        "LP duality"
+      ],
+      "repo": "https://github.com/chiharuma38/power-systems-portfolio/tree/main/04_storage_optimizer",
+      "page": "projects/storage_optimizer.html",
+      "milestones": [
+        {
+          "name": "Scope and README",
+          "done": true
+        },
+        {
+          "name": "Economic dispatch by lambda iteration",
+          "done": true
+        },
+        {
+          "name": "Duality verified numerically",
+          "done": true
+        },
+        {
+          "name": "Price series constructed",
+          "done": true
+        },
+        {
+          "name": "Battery arbitrage LP with cyclic SoC",
+          "done": true
+        },
+        {
+          "name": "Duration scan",
+          "done": true
+        },
+        {
+          "name": "Foresight and volatility sensitivities",
+          "done": true
+        },
+        {
+          "name": "Write-up",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "05_contingency_toolkit",
+      "num": "05",
+      "name": "A Parallel N-1 Contingency Screening Toolkit",
+      "status": "complete",
+      "percent": 100,
+      "headline": "2.85x speed-up on 4 cores, results verified identical to sequential",
+      "tools": [
+        "Python OOP",
+        "multiprocessing",
+        "IEEE 118-bus"
+      ],
+      "repo": "https://github.com/chiharuma38/power-systems-portfolio/tree/main/05_contingency_toolkit",
+      "page": "projects/contingency_toolkit.html",
+      "milestones": [
+        {
+          "name": "Scope and README",
+          "done": true
+        },
+        {
+          "name": "ContingencyAnalyzer class",
+          "done": true
+        },
+        {
+          "name": "Rating assumption documented",
+          "done": true
+        },
+        {
+          "name": "Sequential implementation",
+          "done": true
+        },
+        {
+          "name": "Parallel implementation",
+          "done": true
+        },
+        {
+          "name": "Correctness verified against sequential",
+          "done": true
+        },
+        {
+          "name": "Scaling benchmark",
+          "done": true
+        },
+        {
+          "name": "Write-up",
+          "done": true
+        }
+      ]
+    }
+  ]
+}

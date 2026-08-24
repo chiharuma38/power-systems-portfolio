@@ -1,0 +1,30 @@
+{
+ "base": {
+  "n_bus": 118,
+  "n_line": 173,
+  "n_trafo": 13,
+  "n_gen": 53,
+  "n_load": 99,
+  "total_load_mw": 4242.0,
+  "base_max_loading": 76.92,
+  "base_v_min": 0.943,
+  "base_v_max": 1.05
+ },
+ "timings": {
+  "1": 4.897,
+  "2": 2.834,
+  "4": 1.72
+ },
+ "identical_results": true,
+ "cpu_count": 4,
+ "n_contingencies": 173,
+ "n_converged": 173,
+ "n_diverged": 0,
+ "n_with_violations": 129,
+ "n_thermal_cases": 129,
+ "n_voltage_cases": 12,
+ "worst_line": 46,
+ "worst_loading": 619.3,
+ "speedup": 2.85,
+ "runtime_reduction_pct": 64.9
+}

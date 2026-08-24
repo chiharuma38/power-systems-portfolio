@@ -1,4 +1,4 @@
-# Project 1 — N-1 Contingency Screening + Wind Integration
+# Project 1: N-1 Contingency Screening + Wind Integration
 
 **Tools:** pandapower · Python · matplotlib  
 **Data:** IEEE 39-bus New England test network (built into pandapower)  

@@ -1,0 +1,23 @@
+{
+ "n_gen": 53,
+ "total_capacity_mw": 9161.0,
+ "nominal_demand_mw": 4242.0,
+ "price_at_nominal": 40.196,
+ "duality_max_error": 0.0,
+ "numerical_dcost_ddemand": 40.1961,
+ "hours": 2160,
+ "price_mean": 37.51,
+ "price_min": 30.36,
+ "price_max": 41.0,
+ "price_std": 3.07,
+ "best_duration_h": 1,
+ "revenue_4h_90d": 38404.0,
+ "annualised_4h": 155748.0,
+ "perfect_foresight_eur": 24121.0,
+ "naive_forecast_eur": 22508.0,
+ "foresight_bias_pct": 6.7,
+ "break_even_price_ratio": 1.1815,
+ "observed_price_ratio": 1.3506,
+ "zero_revenue_below_amplitude": 0.75,
+ "revenue_at_amp2_per_mw": 71.9
+}
