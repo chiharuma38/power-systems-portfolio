@@ -33,7 +33,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 SOURCE = HERE / "progress.json"
 SITE = HERE / "chiharuma38.github.io"
-DEFAULT_ACADEMY = Path.home() / "Desktop" / "Energy Systems Academy"
+DEFAULT_ACADEMY = Path.home() / "Desktop" / "Energy-Systems-HQ" / "1-Academy"
 
 VALID_STATUS = {"complete", "active", "planned"}
 
